@@ -1,121 +1,121 @@
 // 1. Data Structure for all rounds
 const quizData = {
     "Passing Round": [
-        { text: "लक्षद्वीप का सबसे बड़ा द्वीप कौन सा है?", answer: "आण्ड्रॉट", time: 15, type: "text" },
-        { text: "मकराना नगर किस वस्तु के लिए प्रसिद्ध है?", answer: "संगमरमर", time: 15, type: "text" },
-        { text: "दक्षिण भारत का दूसरा सर्वोच्च शिखर कौन सा है?", answer: "दोदाबेटा", time: 15, type: "text" },
-        { text: "भारत में हैवी इलेक्ट्रिकल्स का प्रथम कारखाना कहाँ आरंभ हुआ?", answer: "भोपाल", time: 15, type: "text" },
-        { text: "भारत में सबसे कम वर्षा कहाँ होती है?", answer: "जैसलमेर", time: 15, type: "text" }
+        { text: "लक्षद्वीप का सबसे बड़ा द्वीप कौन सा है?", answer: "आण्ड्रॉट", time: 20, type: "text" },
+        { text: "मकराना नगर किस वस्तु के लिए प्रसिद्ध है?", answer: "संगमरमर", time: 20, type: "text" },
+        { text: "दक्षिण भारत का दूसरा सर्वोच्च शिखर कौन सा है?", answer: "दोदाबेटा", time: 20, type: "text" },
+        { text: "भारत में हैवी इलेक्ट्रिकल्स का प्रथम कारखाना कहाँ आरंभ हुआ?", answer: "भोपाल", time: 20, type: "text" },
+        { text: "भारत में सबसे कम वर्षा कहाँ होती है?", answer: "जैसलमेर", time: 20, type: "text" }
     ],
     "Picture Round": [
-        { text: "इतिहास में, इस प्रकार की उत्कृष्ट नटराज कांस्य मूर्तियों के निर्माण के लिए दक्षिण भारत का कौन सा राजवंश सर्वाधिक प्रसिद्ध है?", answer: "चोल", time: 15, type: "picture", mediaSrc: "images/natraj.jpg" },
-        { text: "1957-58 में इन प्रागैतिहासिक गुफाओं की खोज किस प्रसिद्ध भारतीय पुरातत्वविद् ने की थी?", answer: "वाकणकर", time: 15, type: "picture", mediaSrc: "images/bhim.jpg" },
-        { text: "18वीं शताब्दी में इस वेधशाला का निर्माण आमेर (जयपुर) के किस दूरदर्शी राजपूत महाराजा ने करवाया था?", answer: "जयसिंह (सवाई जयसिंह द्वितीय)", time: 15, type: "picture", mediaSrc: "images/jantar.jpg" },
-        { text: "चित्र में पानी की सतह पर तैरते हुए वनस्पति, मिट्टी और जैविक पदार्थों के जो विशिष्ट बड़े-बड़े द्वीप दिखाई दे रहे हैं, उन्हें स्थानीय मणिपुरी भाषा में क्या कहा जाता है?", answer: "फुमडी (Phumdi)", time: 15, type: "picture", mediaSrc: "images/keibul.jpg" },
-        { text: "जहाजों के पाल पर अंकित 'बाघ' (व्याघ्र) का चिह्न दक्षिण भारत के किस महान और शक्तिशाली राजवंश का शाही प्रतीक था?", answer: "चोल", time: 15, type: "picture", mediaSrc: "images/chola.jpg" }
+        { text: "इतिहास में, इस प्रकार की उत्कृष्ट नटराज कांस्य मूर्तियों के निर्माण के लिए दक्षिण भारत का कौन सा राजवंश सर्वाधिक प्रसिद्ध है?", answer: "चोल", time: 20, type: "picture", mediaSrc: "images/natraj.jpg" },
+        { text: "1957-58 में इन प्रागैतिहासिक गुफाओं की खोज किस प्रसिद्ध भारतीय पुरातत्वविद् ने की थी?", answer: "वाकणकर", time: 20, type: "picture", mediaSrc: "images/bhim.jpg" },
+        { text: "18वीं शताब्दी में इस वेधशाला का निर्माण आमेर (जयपुर) के किस दूरदर्शी राजपूत महाराजा ने करवाया था?", answer: "जयसिंह (सवाई जयसिंह द्वितीय)", time: 20, type: "picture", mediaSrc: "images/jantar.jpg" },
+        { text: "चित्र में पानी की सतह पर तैरते हुए वनस्पति, मिट्टी और जैविक पदार्थों के जो विशिष्ट बड़े-बड़े द्वीप दिखाई दे रहे हैं, उन्हें स्थानीय मणिपुरी भाषा में क्या कहा जाता है?", answer: "फुमडी (Phumdi)", time: 20, type: "picture", mediaSrc: "images/keibul.jpg" },
+        { text: "जहाजों के पाल पर अंकित 'बाघ' (व्याघ्र) का चिह्न दक्षिण भारत के किस महान और शक्तिशाली राजवंश का शाही प्रतीक था?", answer: "चोल", time: 20, type: "picture", mediaSrc: "images/chola.jpg" }
         // ... add remaining questions
     ],
     "Video Round": [
-        { text: "चंद्रयान-3 चंद्रमा पर कब उतरा?", answer: "23 अगस्त 2023", time: 15, type: "video", mediaSrc: "vid1.mp4" },
-        { text: "बहारों फूल बरसाओ’ गाना किस फिल्म का है?", answer: "सूरज (1966)", time: 15, type: "video", mediaSrc: "song.mp4" },
-        { text: "भरतनाट्यम किस राज्य का प्रमुख शास्त्रीय नृत्य है?", answer: "तमिलनाडु", time: 15, type: "video", mediaSrc: "dance.mp4" },
-        { text: "धुआँधार जलप्रपात किस शहर के पास है?", answer: "जबलपुर", time: 15, type: "video", mediaSrc: "waterfall.mp4" },
-        { text: "थेय्यम परंपरा भारत के किस राज्य से जुड़ी है?", answer: "केरल", time: 15, type: "video", mediaSrc: "kaantara.mp4" }
+        { text: "चंद्रयान-3 चंद्रमा पर कब उतरा?", answer: "23 अगस्त 2023", time: 20, type: "video", mediaSrc: "vid1.mp4" },
+        { text: "बहारों फूल बरसाओ’ गाना किस फिल्म का है?", answer: "सूरज (1966)", time: 20, type: "video", mediaSrc: "song.mp4" },
+        { text: "भरतनाट्यम किस राज्य का प्रमुख शास्त्रीय नृत्य है?", answer: "तमिलनाडु", time: 20, type: "video", mediaSrc: "dance.mp4" },
+        { text: "धुआँधार जलप्रपात किस शहर के पास है?", answer: "जबलपुर", time: 20, type: "video", mediaSrc: "waterfall.mp4" },
+        { text: "थेय्यम परंपरा भारत के किस राज्य से जुड़ी है?", answer: "केरल", time: 20, type: "video", mediaSrc: "kaantara.mp4" }
     ],
     "Audio Round": [
-        { text: "इस वाद्ययंत्र को सुनने के बाद, गुप्त वंश के उस प्रतापी राजा का नाम बताएँ जो दक्षिण भारत में अपने विजय अभियान के साथ-साथ एक 'कुशल वीणावादक' के रूप में भी विख्यात था।", answer: "समुद्रगुप्त", time: 15, type: "audio", mediaSrc: "audios/veena.mp3" },
-        { text: "प्रतिभागी को यह श्लोक सुनकर बताना है कि यह उपदेश किस ग्रंथ से लिया गया है, जिसमें आत्मा की अमरता (जिसे न शस्त्र काट सकते हैं, न पानी भिगो सकता है) का वर्णन है।", answer: "गीता उपदेश", time: 15, type: "audio", mediaSrc: "audios/gita.mp3" },
-        { text: "इस राष्ट्रीय गीत की धुन को पहचानें और बताएँ कि इसी नाम ('वन्देमातरम्') से एक क्रान्तिकारी अखबार का प्रकाशन किस महान स्वतंत्रता सेनानी ने किया था?", answer: "महर्षि अरविन्द घोष", time: 15, type: "audio", mediaSrc: "audios/vande.mp3" },
-        { text: "16 अप्रैल 1853 को भारत में जब पहली रेलगाड़ी चली थी, तो वह किन दो स्टेशनों के बीच चलाई गई थी?", answer: "मुम्बई (बोरी बन्दर) से ठाणे (थाने)", time: 15, type: "audio", mediaSrc: "audios/train.mp3" },
-        { text: "यह ध्वनि पंजाब की उस शूरवीर भूमि से संबंधित है जहाँ राम सिंह के नेतृत्व में ब्रिटिश शासन के विरुद्ध एक ऐतिहासिक और उग्र आन्दोलन चलाया गया था। उस आन्दोलन का क्या नाम था?", answer: "कूका आन्दोलन", time: 15, type: "audio", mediaSrc: "audios/nagara.mp3" }
+        { text: "इस वाद्ययंत्र को सुनने के बाद, गुप्त वंश के उस प्रतापी राजा का नाम बताएँ जो दक्षिण भारत में अपने विजय अभियान के साथ-साथ एक 'कुशल वीणावादक' के रूप में भी विख्यात था।", answer: "समुद्रगुप्त", time: 20, type: "audio", mediaSrc: "audios/veena.mp3" },
+        { text: "प्रतिभागी को यह श्लोक सुनकर बताना है कि यह उपदेश किस ग्रंथ से लिया गया है, जिसमें आत्मा की अमरता (जिसे न शस्त्र काट सकते हैं, न पानी भिगो सकता है) का वर्णन है।", answer: "गीता उपदेश", time: 20, type: "audio", mediaSrc: "audios/gita.mp3" },
+        { text: "इस राष्ट्रीय गीत की धुन को पहचानें और बताएँ कि इसी नाम ('वन्देमातरम्') से एक क्रान्तिकारी अखबार का प्रकाशन किस महान स्वतंत्रता सेनानी ने किया था?", answer: "महर्षि अरविन्द घोष", time: 20, type: "audio", mediaSrc: "audios/vande.mp3" },
+        { text: "16 अप्रैल 1853 को भारत में जब पहली रेलगाड़ी चली थी, तो वह किन दो स्टेशनों के बीच चलाई गई थी?", answer: "मुम्बई (बोरी बन्दर) से ठाणे (थाने)", time: 20, type: "audio", mediaSrc: "audios/train.mp3" },
+        { text: "यह ध्वनि पंजाब की उस शूरवीर भूमि से संबंधित है जहाँ राम सिंह के नेतृत्व में ब्रिटिश शासन के विरुद्ध एक ऐतिहासिक और उग्र आन्दोलन चलाया गया था। उस आन्दोलन का क्या नाम था?", answer: "कूका आन्दोलन", time: 20, type: "audio", mediaSrc: "audios/nagara.mp3" }
     ],
 
     // Optional Round - Grouped by Topic
     "Optional Round": {
         "Dharam Sanskriti": {
             "Team A": [
-                { text: "राजा जनक का वास्तविक नाम क्या था?", answer: "सीरध्वज", time: 15, type: "text" }
+                { text: "राजा जनक का वास्तविक नाम क्या था?", answer: "सीरध्वज", time: 20, type: "text" }
             ],
             "Team B": [
-                { text: "सम्पूर्ण असम में 'नामघर' स्थापित करने वाले प्रसिद्ध वैष्णव संत कौन थे?", answer: "शंकरदेव", time: 15, type: "text" }
+                { text: "सम्पूर्ण असम में 'नामघर' स्थापित करने वाले प्रसिद्ध वैष्णव संत कौन थे?", answer: "शंकरदेव", time: 20, type: "text" }
             ],
             "Team C": [
-                { text: "सिंधियों के महान संत झूलेलाल को किस देवता का अवतार माना जाता है?", answer: "वरुण", time: 15, type: "text" }
+                { text: "सिंधियों के महान संत झूलेलाल को किस देवता का अवतार माना जाता है?", answer: "वरुण", time: 20, type: "text" }
             ],
             "Team D": [
-                { text: "राजा परीक्षित को श्रापवश किस साँप ने डसा था?", answer: "तक्षक", time: 15, type: "text" }
+                { text: "राजा परीक्षित को श्रापवश किस साँप ने डसा था?", answer: "तक्षक", time: 20, type: "text" }
             ],
             "Team E": [
-                { text: "प्रसिद्ध तमिल संत तिरुवल्लूवर के सुभाषित किस ग्रन्थ में संगृहीत हैं?", answer: "तिरुक्कुरल", time: 15, type: "text" }
+                { text: "प्रसिद्ध तमिल संत तिरुवल्लूवर के सुभाषित किस ग्रन्थ में संगृहीत हैं?", answer: "तिरुक्कुरल", time: 20, type: "text" }
             ]
         },
         // आप भविष्य में इसी तरह History, Rajniti आदि के प्रश्न भी हर टीम के लिए बाँट सकते हैं
         "History": {
             "Team A": [
-                { text: "असम का सबसे प्राचीन नाम क्या है?", answer: "प्रागज्योतिषपुर", time: 15, type: "text" }
+                { text: "असम का सबसे प्राचीन नाम क्या है?", answer: "प्रागज्योतिषपुर", time: 20, type: "text" }
             ],
             "Team B": [
-                { text: "चोल राजवंश की सर्वप्रथम राजधानी कौन सी थी?", answer: "उरैयूर", time: 15, type: "text" }
+                { text: "चोल राजवंश की सर्वप्रथम राजधानी कौन सी थी?", answer: "उरैयूर", time: 20, type: "text" }
             ],
             "Team C": [
-                { text: "ह्वेनसांग के अनुसार सम्राट हर्षवर्धन प्रत्येक छठे वर्ष अपना सर्वस्व दान कहाँ करते थे?", answer: "प्रयागराज", time: 15, type: "text" }
+                { text: "ह्वेनसांग के अनुसार सम्राट हर्षवर्धन प्रत्येक छठे वर्ष अपना सर्वस्व दान कहाँ करते थे?", answer: "प्रयागराज", time: 20, type: "text" }
             ],
             "Team D": [
-                { text: "'बुद्ध चरितम' के लेखक अश्वघोष किस राजा के दरबार में थे?", answer: "कनिष्क", time: 15, type: "text" }
+                { text: "'बुद्ध चरितम' के लेखक अश्वघोष किस राजा के दरबार में थे?", answer: "कनिष्क", time: 20, type: "text" }
             ],
             "Team E": [
-                { text: "पल्लव शक्ति का प्रमुख केन्द्र कौन सा स्थान था?", answer: "कांचीपुरम", time: 15, type: "text" }
+                { text: "पल्लव शक्ति का प्रमुख केन्द्र कौन सा स्थान था?", answer: "कांचीपुरम", time: 20, type: "text" }
             ]
         },
         "Rajniti and Sanvidhaan": {
             "Team A": [
-                { text: "संविधान में 'गणराज्य' की अवधारणा किस देश के संविधान से प्रेरित है?", answer: "फ्रांस", time: 15, type: "text" }
+                { text: "संविधान में 'गणराज्य' की अवधारणा किस देश के संविधान से प्रेरित है?", answer: "फ्रांस", time: 20, type: "text" }
             ],
             "Team B": [
-                { text: "भारत में आपातकालीन प्रावधान किस देश के संविधान से लिए गए हैं?", answer: "जर्मनी", time: 15, type: "text" }
+                { text: "भारत में आपातकालीन प्रावधान किस देश के संविधान से लिए गए हैं?", answer: "जर्मनी", time: 20, type: "text" }
             ],
             "Team C": [
-                { text: "लोकसभा के अस्थाई (प्रोटेम) अध्यक्ष की नियुक्ति कौन करता है?", answer: "राष्ट्रपति", time: 15, type: "text" }
+                { text: "लोकसभा के अस्थाई (प्रोटेम) अध्यक्ष की नियुक्ति कौन करता है?", answer: "राष्ट्रपति", time: 20, type: "text" }
             ],
             "Team D": [
-                { text: "'पैंथर पार्टी' मुख्य रूप से किस राज्य/केन्द्र शासित प्रदेश का राजनीतिक दल है?", answer: "जम्मू-कश्मीर", time: 15, type: "text" }
+                { text: "'पैंथर पार्टी' मुख्य रूप से किस राज्य/केन्द्र शासित प्रदेश का राजनीतिक दल है?", answer: "जम्मू-कश्मीर", time: 20, type: "text" }
             ],
             "Team E": [
-                { text: "भारत में पहला लोक अदालत शिविर कहाँ आयोजित किया गया था?", answer: "गुजरात", time: 15, type: "text" }
+                { text: "भारत में पहला लोक अदालत शिविर कहाँ आयोजित किया गया था?", answer: "गुजरात", time: 20, type: "text" }
             ]
         },
         "Khel": {
             "Team A": [
-                { text: "विश्व में सबसे अधिक ऊँचाई पर स्थित क्रिकेट का मैदान किस स्थान पर है?", answer: "चैल", time: 15, type: "text" }
+                { text: "विश्व में सबसे अधिक ऊँचाई पर स्थित क्रिकेट का मैदान किस स्थान पर है?", answer: "चैल", time: 20, type: "text" }
             ],
             "Team B": [
-                { text: "प्रथम भारतीय एशियाई स्नूकर चैम्पियन (1989) कौन थे?", answer: "यासीन", time: 15, type: "text" }
+                { text: "प्रथम भारतीय एशियाई स्नूकर चैम्पियन (1989) कौन थे?", answer: "यासीन", time: 20, type: "text" }
             ],
             "Team C": [
-                { text: "स्वतंत्र भारत की क्रिकेट टीम के प्रथम भारतीय कप्तान कौन थे?", answer: "अमरनाथ", time: 15, type: "text" }
+                { text: "स्वतंत्र भारत की क्रिकेट टीम के प्रथम भारतीय कप्तान कौन थे?", answer: "अमरनाथ", time: 20, type: "text" }
             ],
             "Team D": [
-                { text: "इंग्लिश चैनल तैरकर पार करने वाली प्रथम भारतीय महिला कौन थीं?", answer: "आरती", time: 15, type: "text" }
+                { text: "इंग्लिश चैनल तैरकर पार करने वाली प्रथम भारतीय महिला कौन थीं?", answer: "आरती", time: 20, type: "text" }
             ],
             "Team E": [
-                { text: "पद्मश्री से सम्मानित प्रथम भारतीय धावक कौन थे?", answer: "मिल्खा", time: 15, type: "text" }
+                { text: "पद्मश्री से सम्मानित प्रथम भारतीय धावक कौन थे?", answer: "मिल्खा", time: 20, type: "text" }
             ]
         },
         "Bharat Vikas Parishad": {
             "Team A": [
-                { text: "भारत को जानो प्रतियोगिता के तृतीय (क्षेत्रीय) स्तर को परिषद् द्वारा कुल कितने क्षेत्रों (regions) में बांटा गया है?", answer: "दस", time: 15, type: "text" }
+                { text: "भारत को जानो प्रतियोगिता के तृतीय (क्षेत्रीय) स्तर को परिषद् द्वारा कुल कितने क्षेत्रों (regions) में बांटा गया है?", answer: "दस", time: 20, type: "text" }
             ],
             "Team B": [
-                { text: "भारत विकास परिषद् का केन्द्रीय कार्यालय दिल्ली के किस क्षेत्र में स्थित है?", answer: "पीतमपुरा", time: 15, type: "text" }
+                { text: "भारत विकास परिषद् का केन्द्रीय कार्यालय दिल्ली के किस क्षेत्र में स्थित है?", answer: "पीतमपुरा", time: 20, type: "text" }
             ],
             "Team C": [
-                { text: "परिषद् के पाँच सूत्रों (सम्पर्क, सहयोग, संस्कार, सेवा...) में अंतिम (पाँचवाँ) सूत्र कौन सा है?", answer: "समर्पण", time: 15, type: "text" }
+                { text: "परिषद् के पाँच सूत्रों (सम्पर्क, सहयोग, संस्कार, सेवा...) में अंतिम (पाँचवाँ) सूत्र कौन सा है?", answer: "समर्पण", time: 20, type: "text" }
             ],
             "Team D": [
-                { text: "'भारत को जानो' प्रतियोगिता के प्रथम वर्ष (2001) में लगभग कितने विद्यार्थियों ने सहभागिता की थी?", answer: "एक लाख", time: 15, type: "text" }
+                { text: "'भारत को जानो' प्रतियोगिता के प्रथम वर्ष (2001) में लगभग कितने विद्यार्थियों ने सहभागिता की थी?", answer: "एक लाख", time: 20, type: "text" }
             ],
             "Team E": [
-                { text: "परिषद् द्वारा प्रकाशित इस 'भारत को जानो' पुस्तक के मुद्रक (Printing Press) का नाम क्या है?", answer: "अमर उजाला", time: 15, type: "text" }
+                { text: "परिषद् द्वारा प्रकाशित इस 'भारत को जानो' पुस्तक के मुद्रक (Printing Press) का नाम क्या है?", answer: "अमर उजाला", time: 20, type: "text" }
             ]
         }
     },
@@ -468,3 +468,40 @@ document.addEventListener('keydown', (event) => {
         startTimer();
     }
 });
+
+// =========================================================
+// 7. RESULTS & RANKING LOGIC
+// =========================================================
+function showFinalResults() {
+    // 1. Array banayein jisme sabhi teams aur unke scores hon
+    let teamsArr = [
+        { name: "Team A", score: scoresData['A'] },
+        { name: "Team B", score: scoresData['B'] },
+        { name: "Team C", score: scoresData['C'] },
+        { name: "Team D", score: scoresData['D'] },
+        { name: "Team E", score: scoresData['E'] }
+    ];
+
+    // 2. Scores ke basis par array ko sort karein (Highest to Lowest)
+    teamsArr.sort((a, b) => b.score - a.score);
+
+    // 3. HTML Elements mein Top 3 Teams ka data feed karein
+    // 1st Place
+    document.getElementById('team-1st').textContent = teamsArr[0].name;
+    document.getElementById('score-1st').textContent = teamsArr[0].score;
+
+    // 2nd Place
+    document.getElementById('team-2nd').textContent = teamsArr[1].name;
+    document.getElementById('score-2nd').textContent = teamsArr[1].score;
+
+    // 3rd Place
+    document.getElementById('team-3rd').textContent = teamsArr[2].name;
+    document.getElementById('score-3rd').textContent = teamsArr[2].score;
+
+    // 4. Modal (Popup) ko show karein
+    document.getElementById('results-modal').classList.remove('hidden');
+}
+
+function closeResults() {
+    document.getElementById('results-modal').classList.add('hidden');
+}
