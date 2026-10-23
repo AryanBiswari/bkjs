@@ -16,11 +16,11 @@ const quizData = {
         // ... add remaining questions
     ],
     "Video Round": [
-        { text: "चंद्रयान-3 चंद्रमा पर कब उतरा?", answer: "23 अगस्त 2023", time: 20, type: "video", mediaSrc: "vid1.mp4" },
-        { text: "बहारों फूल बरसाओ’ गाना किस फिल्म का है?", answer: "सूरज (1966)", time: 20, type: "video", mediaSrc: "song.mp4" },
-        { text: "भरतनाट्यम किस राज्य का प्रमुख शास्त्रीय नृत्य है?", answer: "तमिलनाडु", time: 20, type: "video", mediaSrc: "dance.mp4" },
-        { text: "धुआँधार जलप्रपात किस शहर के पास है?", answer: "जबलपुर", time: 20, type: "video", mediaSrc: "waterfall.mp4" },
-        { text: "थेय्यम परंपरा भारत के किस राज्य से जुड़ी है?", answer: "केरल", time: 20, type: "video", mediaSrc: "kaantara.mp4" }
+        { text: "वीडियो में दिखाई दे रहे खिलाड़ी  का नाम और किस टीम के कप्तान हैं", answer: "हरमनप्रीत सिंह", time: 20, type: "video", mediaSrc: "videos/athe.mp4" },
+        { text: "विश्व का पहला सोलर पर चलने वाला एयरपोर्ट किस देश के राज्य में  कहां पर  है", answer: "कोच्चि", time: 20, type: "video", mediaSrc: "videos/solar.mp4" },
+        { text: "इस मूवी में आमिर खान ने बच्चे की किस बीमारी के बारे में बताया है", answer: "डिस्लेक्सिया (Dyslexia)", time: 20, type: "video", mediaSrc: "videos/taare.mp4" },
+        { text: "फिल्म में तीन मुख्य पात्रों के नाम क्या हैं?", answer: "राजू, श्याम और बाबूराव गणपतराव आप्टे", time: 20, type: "video", mediaSrc: "videos/moie.mp4" },
+        { text: "भगवान श्रीराम ने शिवधनुष किसके कहने पर उठाया था?", answer: "महर्षि विश्वामित्र जी", time: 20, type: "video", mediaSrc: "videos/ram.mp4" }
     ],
     "Audio Round": [
         { text: "इस वाद्ययंत्र को सुनने के बाद, गुप्त वंश के उस प्रतापी राजा का नाम बताएँ जो दक्षिण भारत में अपने विजय अभियान के साथ-साथ एक 'कुशल वीणावादक' के रूप में भी विख्यात था।", answer: "समुद्रगुप्त", time: 20, type: "audio", mediaSrc: "audios/veena.mp3" },
