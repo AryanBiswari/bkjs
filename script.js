@@ -19,7 +19,7 @@ const quizData = {
         { text: "वीडियो में दिखाई दे रहे खिलाड़ी  का नाम और किस टीम के कप्तान हैं", answer: "हरमनप्रीत सिंह", time: 20, type: "video", mediaSrc: "videos/athe.mp4" },
         { text: "विश्व का पहला सोलर पर चलने वाला एयरपोर्ट किस देश के राज्य में  कहां पर  है", answer: "कोच्चि", time: 20, type: "video", mediaSrc: "videos/solar.mp4" },
         { text: "इस मूवी में आमिर खान ने बच्चे की किस बीमारी के बारे में बताया है", answer: "डिस्लेक्सिया (Dyslexia)", time: 20, type: "video", mediaSrc: "videos/taare.mp4" },
-        { text: "फिल्म में तीन मुख्य पात्रों के नाम क्या हैं?", answer: "राजू, श्याम और बाबूराव गणपतराव आप्टे", time: 20, type: "video", mediaSrc: "videos/moie.mp4" },
+        { text: "फिल्म में तीन मुख्य पात्रों के नाम क्या हैं?", answer: "राजू, श्याम और बाबूराव गणपतराव आप्टे", time: 20, type: "video", mediaSrc: "videos/movie.mp4" },
         { text: "भगवान श्रीराम ने शिवधनुष किसके कहने पर उठाया था?", answer: "महर्षि विश्वामित्र जी", time: 20, type: "video", mediaSrc: "videos/ram.mp4" }
     ],
     "Audio Round": [
